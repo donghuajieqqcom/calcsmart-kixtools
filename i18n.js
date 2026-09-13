@@ -134,17 +134,10 @@ function renderHeader(active) {
 }
 
 function renderFooter() {
-  return `<div class="donate"><p data-t="donateTip">${t('donateTip')}</p><p><span data-t="donateAddr">${t('donateAddr')}</span> <code>TEdwRKtNa1qyLLDGb6dGEdhLgDYnDBMF1c</code></p></div>
+  return `<div class="donate"><p data-t="donateTip">${t('donateTip')}</p><p><span data-t="donateAddr">${t('donateAddr')}</span> <code>TYYS93KdrbSCcJ3ysp4vNFUGgYtYS3PhNo</code></p></div>
   <footer class="footer">© 2026 CalcSmart · 免费在线计算器｜由<a href="https://kixtools.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">KixTools</a>提供</footer>`;
 }
 
 function fmt(n) { return n.toLocaleString('zh-CN', {minimumFractionDigits:2, maximumFractionDigits:2}); }
 
-/* ===== Google AdSense ===== */
-(function () {
-  var s = document.createElement('script');
-  s.async = true;
-  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2301709267790754';
-  s.crossOrigin = 'anonymous';
-  document.head.appendChild(s);
-})();
+
