@@ -139,3 +139,12 @@ function renderFooter() {
 }
 
 function fmt(n) { return n.toLocaleString('zh-CN', {minimumFractionDigits:2, maximumFractionDigits:2}); }
+
+/* ===== Google AdSense ===== */
+(function () {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2301709267790754';
+  s.crossOrigin = 'anonymous';
+  document.head.appendChild(s);
+})();
